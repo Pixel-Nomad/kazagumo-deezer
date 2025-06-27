@@ -1,0 +1,35 @@
+{
+  "name": "@pixel_nomad/kazagumo-deezer",
+  "version": "1.0.5",
+  "description": "A plugin that allows you to play music on deezer",
+  "main": "dist/index.js",
+  "types": "dist/Index.d.ts",
+  "homepage": "https://github.com/Pixel-Nomad/kazagumo-deezer",
+  "readme": "https://github.com/Pixel-Nomad/Kazagumo-deezer#readme",
+  "bugs": {
+    "url": "https://github.com/Pixel-Nomad/Kazagumo-deezer",
+    "email": "mr.tgamer247797704@gmail.com"
+  },
+  "engines": {
+    "node": ">=16.5.0"
+  },
+  "scripts": {
+    "build": "npx tsc --build --verbose"
+  },
+  "author": "Pixel Nomad",
+  "license": "ISC",
+  "files": [
+    "dist/**/**/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@pixel_nomad/kazagumo": "^3.2.24",
+    "axios": "^1.1.3"
+  }
+}
