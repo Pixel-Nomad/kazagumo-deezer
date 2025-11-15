@@ -1,6 +1,6 @@
 {
   "name": "@pixel_nomad/kazagumo-deezer",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "A plugin that allows you to play music on deezer",
   "main": "dist/index.js",
   "types": "dist/Index.d.ts",
@@ -24,12 +24,12 @@
   "devDependencies": {
     "@types/node": "^18.11.9",
     "dotenv": "^16.0.3",
-    "nodemon": "^2.0.20",
+    "nodemon": "^3.1.10",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5"
   },
   "dependencies": {
     "@pixel_nomad/kazagumo": "^3.2.24",
-    "axios": "^1.1.3"
+    "axios": "^1.11.0"
   }
 }
